@@ -1,0 +1,102 @@
+# Copyright (C) 2022 Prakash Rao
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Codeable Feedback Form 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/feedback-form\n"
+"POT-Creation-Date: 2022-04-09T01:37:43+00:00\n"
+"PO-Revision-Date: 2022-04-09 07:36+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: codeable-feedback-form\n"
+
+#. Plugin Name of the plugin
+msgid "Codeable Feedback Form"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wordpresscapital.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A feedback form to collect customers feedback."
+msgstr ""
+
+#. Author of the plugin
+msgid "Prakash Rao"
+msgstr ""
+
+#: public/templates/feedback-form.php:18
+msgid "Submit your feedback"
+msgstr ""
+
+#: public/templates/feedback-form.php:26
+msgid "First name"
+msgstr "Prénom"
+
+#: public/templates/feedback-form.php:31
+msgid "Last name"
+msgstr "Nom"
+
+#: public/templates/feedback-form.php:36
+msgid "Email"
+msgstr "Courriel"
+
+#: public/templates/feedback-form.php:41
+msgid "Subject"
+msgstr "Sujet"
+
+#: public/templates/feedback-form.php:46
+msgid "Message"
+msgstr "Message"
+
+#: public/templates/feedback-form.php:51
+msgid "Clear"
+msgstr "Effacer"
+
+#: public/templates/feedback-form.php:52
+msgid "Submit"
+msgstr "Envoyer"
+
+#: public/templates/feedback-form.php:57
+msgid "Thank you for sending us your feedback"
+msgstr "Merci de nous avoir envoyé vos commentaires"
+
+#: public/templates/feedback-form.php:57
+msgid "Submit another feedback"
+msgstr "Soumettre un autre commentaire"
+
+#: public/templates/feedback-list.php:49
+msgid "Submitted on"
+msgstr ""
+
+#: public/templates/feedback-list.php:50
+msgid "Action"
+msgstr ""
+
+#: public/templates/feedback-list.php:67
+msgid "Open"
+msgstr ""
+
+#: public/templates/feedback-list.php:105
+msgid "First"
+msgstr ""
+
+#: public/templates/feedback-list.php:112
+msgid "Previous"
+msgstr ""
+
+#: public/templates/feedback-list.php:128
+msgid "Next"
+msgstr ""
+
+#: public/templates/feedback-list.php:134
+msgid "Last"
+msgstr ""

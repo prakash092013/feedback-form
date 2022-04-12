@@ -1,0 +1,99 @@
+/* Feedback form css */
+	form.CodeableFeedbackForm small.cff-error{
+		display: block;
+		width: 100%;
+		color: red;
+	}
+
+	form.CodeableFeedbackForm .spinner{
+		background: url(../images/spinner.gif) no-repeat;
+		-webkit-background-size: 20px 20px;
+		background-size: 20px 20px;
+		display: none;
+		float: right;
+		opacity: 0.7;
+		filter: alpha(opacity=70);
+		width: 20px;
+		height: 20px;
+		margin: 2px 5px 0;
+	}
+
+	form.CodeableFeedbackForm .spinner.is-active{
+		display: block;
+	}
+
+	form.CodeableFeedbackForm .submit-section{
+		display: flex;
+		align-items: center;
+	}
+
+	form.CodeableFeedbackForm input[type="reset"],
+	form.CodeableFeedbackForm input[type="submit"]{
+		padding: 5px 10px;
+	}
+
+	form.CodeableFeedbackForm input[type="text"],
+	form.CodeableFeedbackForm input[type="email"],
+	form.CodeableFeedbackForm textarea{
+		padding: 10px 10px;
+		width: calc(100% - 45px);
+	}
+	.CodeableFeedbackForm-wrapper.after-submit form,
+	.CodeableFeedbackForm-wrapper .thankyou_message{
+		display: none;
+	}
+
+	.CodeableFeedbackForm-wrapper.after-submit .thankyou_message{
+		display: block;
+	}
+
+	.CodeableFeedbackForm-wrapper .thankyou_message p{
+		color: #0f5132;
+		background-color: #d1e7dd;
+		border-color: #badbcc;
+		padding: 10px 20px;
+	}
+
+/* Feedback Form css ends */
+
+/* Feedback List css */
+	.CodeableFeedbackForm-list{
+		position: relative;
+	}
+	.CodeableFeedbackForm-list .alert-warning{
+		color: #856404;
+		background-color: #fff3cd;
+		border-color: #ffeeba;
+		padding: 10px 20px;
+	}
+
+	.CodeableFeedbackForm-list .pagination-loading.active{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		opacity: 0.5;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.CodeableFeedbackForm-list .pagination-loading.active .spinner{
+		background: url(../images/spinner.gif) no-repeat;
+		-webkit-background-size: 50px 50px;
+		background-size: 50px 50px;
+		display: block;
+		width: 50px;
+		height: 50px;
+		margin: 2px 5px 0;
+	}
+
+	.CodeableFeedbackForm-list .cvf_pag_loading {padding: 20px;}
+	.CodeableFeedbackForm-list .cvf-universal-pagination ul {margin: 0 auto; padding: 10px; text-align: center;}
+	.CodeableFeedbackForm-list .cvf-universal-pagination ul li {display: inline; margin: 3px; padding: 4px 8px; background: #FFF; color: black; }
+	.CodeableFeedbackForm-list .cvf-universal-pagination ul li.active:hover {cursor: pointer; background: #1E8CBE; color: white; }
+	.CodeableFeedbackForm-list .cvf-universal-pagination ul li.inactive {background: #7E7E7E;}
+	.CodeableFeedbackForm-list .cvf-universal-pagination ul li.selected {background: #1E8CBE; color: white;}
+/* Feedback List css ends */
